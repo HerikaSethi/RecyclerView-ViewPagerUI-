@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dark">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.04" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.97" />
+
+
+    <TextView
+        android:id="@+id/tv_CarType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato"
+        android:text="@string/_2019_mercedes"
+        android:textColor="@color/very_light_pink"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        tools:text="2019 Mercedes C-Class"
+        tools:ignore="SmallSp" />
+
+    <!--<TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/lato"
+        android:gravity="bottom"
+        android:text="@string/c_class"
+        android:textColor="@color/very_light_pink"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        tools:text="C-Class"
+        tools:ignore="SmallSp" />-->
+
+    <TextView
+        android:id="@+id/tv_Edition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/avantgarde_edition_sedan"
+        android:textColor="@color/blueygrey"
+        android:textSize="8sp"
+        app:layout_constraintStart_toStartOf="@id/guideline6"
+        app:layout_constraintTop_toBottomOf="@+id/tv_CarType"
+        tools:ignore="SmallSp" />
+
+    <ImageView
+        android:id="@+id/iv_carImg"
+        android:layout_width="118dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="9dp"
+        android:src="@drawable/car_3"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Edition" />
+
+    <TextView
+        android:id="@+id/tv_agingMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aging_media_1d_2h_36m"
+        android:textColor="@color/browngrey"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        tools:text="Aging Media: 1d 2h 36m"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/tv_Stock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/stock_213787682713"
+        android:textColor="@color/browngrey"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toBottomOf="@+id/tv_agingMedia"
+        tools:text="Stock:213787682713"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/tv_Vin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/vin_jh4ka4531kc033525"
+        android:textColor="@color/browngrey"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Stock"
+        tools:text="Vin:JH4KA4531KC033525"
+        tools:ignore="SmallSp" />
+
+  <!--  <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.58" />-->
+
+    <TextView
+        android:id="@+id/tv_editStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/being_edited"
+        android:textColor="@color/browngrey"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Vin"
+        tools:text="BEING EDITED"
+        tools:ignore="SmallSp" />
+
+    <ImageView
+        android:id="@+id/tv_statusImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle_copy_27"
+        app:layout_constraintEnd_toStartOf="@+id/tv_editStatus"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Vin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

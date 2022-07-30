@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">carMediauitestt</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="captured_this_week">Captured This week</string>
+    <string name="_4">4</string>
+    <string name="total_vehicles">Total Vehicles</string>
+    <string name="search_by_vin_or_stock_no">Search by vin or stock no</string>
+    <string name="_80">80%</string>
+    <string name="captured_this_weekk">CAPTURED THIS WEEK</string>
+    <string name="_25">25</string>
+    <string name="captured_this_month">CAPTURED THIS MONTH</string>
+    <string name="_240_500">240/500</string>
+    <string name="_2019_mercedes">2019 Mercedes</string>
+    <string name="c_class">C-Class</string>
+    <string name="avantgarde_edition_sedan">Avantgarde Edition Sedan</string>
+    <string name="aging_media_1d_2h_36m">Aging Media: 1d 2h 36m</string>
+    <string name="stock_213787682713">Stock:213787682713</string>
+    <string name="vin_jh4ka4531kc033525">Vin:JH4KA4531KC033525</string>
+    <string name="being_edited">BEING EDITED</string>
+    <string name="inventory">INVENTORY</string>
+</resources>
